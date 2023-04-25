@@ -1,0 +1,9 @@
+.wrapper {
+  position: relative;
+  display: grid;
+  height: 100dvh;
+  grid-template-columns: auto;
+  grid-template-rows: 120px;
+  grid-auto-rows: 1fr;
+
+}

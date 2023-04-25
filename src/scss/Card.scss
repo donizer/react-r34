@@ -1,0 +1,42 @@
+.card-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.horizontal {
+  grid-column: span 2;
+  &-L {
+    grid-column: span 2;  
+  }
+  &-XL {
+    grid-column: span 3;
+  }
+}
+.vertical {
+  grid-row: span 2;
+  &-L {
+    grid-row: span 3;
+  }
+  &-XL {
+    grid-row: span 4;
+  }
+}
+.square {
+  &-S {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  &-L {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  &-XL {
+    grid-column: span 3;
+    grid-row: span 3;
+  }
+}

@@ -1,0 +1,16 @@
+.nav {
+  background-color: #805c5c;
+  display: flex;
+  .logo {
+    display: grid;
+    place-items: center;
+    width: 9rem;
+    height: 9rem;
+    background-color: rgb(133, 133, 79);
+    font-size: 6rem;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+}
