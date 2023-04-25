@@ -57,7 +57,11 @@ function Layout() {
   }, [timer]);
 
   useEffect(() => {
-    document.querySelector("body")!.classList.toggle("stop-scrolling");
+    if (isOverlayActive) {
+      document.querySelector("body")!.classList.add("stop-scrolling");
+    } else {
+      document.querySelector("body")!.classList.remove("stop-scrolling");
+    }
   }, [isOverlayActive]);
 
   return (
